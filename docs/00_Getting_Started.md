@@ -10,6 +10,7 @@ This documentation serves as both design documentation and developer-focused doc
 * Systems that encourage players to play their role whilst making sure not to restrict possibilites
 * Scalable AI that scales with difficulty and player population
 * Multiple objective types that can all end up in attacking or defending positions in a huge array of dynamic circumstances
+* Open-ended configuration system
 
 ## Download
 

@@ -17,6 +17,7 @@
 * Modular design
 * A persistant mission that can run for days on end
 * Use of every weapon and vehicle in the game
+* Open-ended configuration system
 
 <div class="clear"></div>
 <hr/>
