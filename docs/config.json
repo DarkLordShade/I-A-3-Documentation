@@ -1,0 +1,17 @@
+{
+	"title": "I&A 3",
+	"tagline": "Create your own I&A 3 flavour with our development kit",
+	"image": "img/ia3-10.png",
+	"theme": "navy",
+	"repo": "jpwilliams/I-A-3",
+	"float": true,
+	"date_modified": true,
+	"twitter": ["atticjack", "ahoyworld"],
+	"google_analytics": "UA-12653604-10",
+	"links": {
+		"Download": "https://github.com/jpwilliams/I-A-3/archive/master.zip",
+		"GitHub Repo": "https://github.com/jpwilliams/I-A-3",
+		"Help/Support/Bugs": "https://github.com/jpwilliams/I-A-3/issues",
+		"Powered by Ahoy World": "http://www.ahoyworld.co.uk"
+	}
+}
