@@ -144,7 +144,7 @@ function load_page($tree)
 			$html .=
 			'
 				<div class="page-header">
-					<a href="https://github.com/jpwiliams/I-A-3-Documentation/edit/master/' . $branch['path'] . '" target="_blank" title="You must be logged into GitHub for this to work." class="btn btn-primary pull-right improve-button">
+					<a href="https://github.com/jpwilliams/I-A-3-Documentation/edit/master/' . $branch['path'] . '" target="_blank" title="You must be logged into GitHub for this to work." class="btn btn-primary pull-right improve-button">
 						Improve This Page
 					</a>
 					<h1>' . $branch['title'] . '</h1>
