@@ -45,5 +45,5 @@ _markers = ["main", "main_latvia", _pos, "Latvia"] call AW_fnc_createMarker;
 
 ## Source
 
-<script src="http://gist-it.appspot.com/https://github.com/jpwilliams/I-A-3/blob/master/functions/markers/fn_createMarker.sqf?footer=0">
+<script src="http://gist-it.appspot.com/https://github.com/jpwilliams/I-A-3/blob/master/functions/markers/fn_createJIPstateMarker.sqf?footer=0">
 </script>
