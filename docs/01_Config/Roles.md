@@ -1,6 +1,8 @@
 ## Description
 
-Roles within I&A 3 are designed to free up the heavy-handed approach of selecting your role before the mission starts.
+Roles within I&A 3 are designed to free up the heavy-handed approach of selecting your role before the mission starts. One of the core concepts of I&A was to ensure that nobody was restricted and that everybody could play the role they wanted to. This obviously comes with certain drawbacks, one good example being that everyone will then carry around a sniper, an RPG and a backpack full of satchel charges and ammo. Every soldier becomes a jack of all trades, able to use anything at any time.
+
+The way role selection works in Arma by default, however, means that restricting people to their roles can be more limiting than other games where role selection is a more free, easy-to-change experience. So, roles in I&A 3 allow the player to change what weapons, items, backpacks and uniforms players can use by choosing either the same or a different role every time they respawn. Upon respawning, they are presented with a menu which will allow them to choose from a wide variety of classes. These could be classes such as Marksman or Ammo Bearer to Medics and Engineers. With this system, players can be locked to specific gear and specific roles without having the key thrown away.
 
 ## Parameters
 
