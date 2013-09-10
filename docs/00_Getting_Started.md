@@ -14,7 +14,7 @@ This documentation serves as both design documentation and developer-focused doc
 
 ## Download
 
-To download, click [here](http://www.example.com).
+To download, click [here](https://github.com/jpwilliams/I-A-3/archive/master.zip).
 
 ## Disclaimer
 
