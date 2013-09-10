@@ -23,7 +23,7 @@ Deleting all units in the array `_attackers`.
 _attackers call AW_fnc_collectGarbage;
 ```
 
-Deleting all units; a global purge.
+Deleting all dead vehicles (including units) and emtpy groups.
 
 ```sqf
 [] call AW_fnc_collectGarbage;
