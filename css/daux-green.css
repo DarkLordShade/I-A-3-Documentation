@@ -6546,7 +6546,7 @@ body {
   }
   td {
     /* Behave  like a "row" */
-  
+
     border: none;
     border-bottom: 1px solid #eee;
     position: relative;
@@ -6556,10 +6556,10 @@ body {
   }
   td:before {
     /* Now like a table header */
-  
+
     position: absolute;
     /* Top/left values mimic padding */
-  
+
     top: 6px;
     left: 6px;
     width: 45%;
@@ -7119,4 +7119,19 @@ pre .xml .vbscript,
 pre .xml .css,
 pre .xml .cdata {
   opacity: 0.5;
+}
+
+/* Gist styles */
+.gist-it-gist .gist-file .gist-data
+{
+  background-color: transparent !important;
+  border-bottom: 0 none !important;
+  clear: left !important;
+  margin-left: 1.5%;
+  margin-right: 1.5%;
+}
+
+.gist-it-gist .gist-file
+{
+  border: 0 none !important;
 }

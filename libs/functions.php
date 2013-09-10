@@ -152,7 +152,7 @@ function load_page($tree)
 			';
 		}
 
-		$html .= MarkdownExtended(file_get_contents($branch['path']));
+		$html .= MarkdownExtended(file_get_contents('https://raw.github.com/jpwilliams/I-A-3-Documentation/master/' . $branch['path']));
 
 		return $html;
 	} else {
