@@ -169,14 +169,19 @@ if ($homepage && $homepage_url !== '/') {
 			<div class="container">
 				<div class="row">
 					<div class="text-center span12">
-						<?php if ($options['repo']) { ?>
-							<a href="https://github.com/<?php echo $options['repo']; ?>/archive/master.zip" class="btn btn-secondary btn-hero">
-								Download I&A 3
+						<?php if ($options['version']) { ?>
+							<a href="https://github.com/jpwilliams/I-A-3/releases/download/<?php echo $options['version'] ?>/CO40.AW.Invade.Annex.3.Altis.pbo" class="btn btn-primary btn-hero">
+								Download Mission
 							</a>
 						<?php } ?>
-						<a href="<?php echo $docs_url;?>" class="btn btn-primary btn-hero">
+						<a href="<?php echo $docs_url;?>" class="btn btn-secondary btn-hero">
 							View Documentation
 						</a>
+						<?php if ($options['repo']) { ?>
+							<a href="https://github.com/<?php echo $options['repo']; ?>/archive/master.zip" class="btn btn-secondary btn-hero">
+								Download Source Code
+							</a>
+						<?php } ?>
 					</div>
 				</div>
 			</div>
@@ -221,9 +226,11 @@ if ($homepage && $homepage_url !== '/') {
 
 	<?php } else { ?>
 		<!-- Docs -->
-		<?php if ($options['repo']) { ?>
-			<a href="https://github.com/<?php echo $options['repo']; ?>" target="_blank" id="github-ribbon"><img src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png" alt="Fork me on GitHub"></a>
-		<?php } ?>
+		<?php /* ?>
+			<?php if ($options['repo']) { ?>
+				<a href="https://github.com/<?php echo $options['repo']; ?>" target="_blank" id="github-ribbon"><img src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png" alt="Fork me on GitHub"></a>
+			<?php } ?>
+		<?php */ ?>
 		<div class="container-fluid fluid-height wrapper">
 			<div class="navbar navbar-fixed-top">
 				<div class="navbar-inner">
@@ -255,12 +262,26 @@ if ($homepage && $homepage_url !== '/') {
 									<a href="<?php echo $url;?>" target="_blank"><?php echo $name;?></a><br>
 								<?php } ?>
 								<!-- Twitter -->
+								<div class="twitter">
+								<hr/>
 								<?php foreach($options['twitter'] as $handle) { ?>
-									<div class="twitter">
-												<hr/>
 										<iframe allowtransparency="true" frameborder="0" scrolling="no" style="width:162px; height:20px;" src="https://platform.twitter.com/widgets/follow_button.html?screen_name=<?php echo $handle;?>&amp;show_count=false"></iframe>
-									</div>
 								<?php } ?>
+								</div>
+
+								<div class="twitter">
+									<hr/>
+									<!-- AddThis Button BEGIN -->
+									<div class="addthis_toolbox addthis_default_style ">
+									<a class="addthis_button_facebook_like" fb:like:layout="button_count"></a>
+									<a class="addthis_button_tweet"></a>
+									<a class="addthis_button_pinterest_pinit"></a>
+									<a class="addthis_counter addthis_pill_style"></a>
+									</div>
+									<script type="text/javascript">var addthis_config = {"data_track_addressbar":false};</script>
+									<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-4f7cf1853e85cc03"></script>
+									<!-- AddThis Button END -->
+								</div>
 							</div>
 						<?php } ?>
 					</div>

@@ -1,5 +1,7 @@
 ## Description
 
+[`AW_fnc_updateMission`](/Functions/Generic/updateMission) is designed to facilitate mission updates and standardise how they appear to players in-game. It is recommended that all mission updates use this function.
+
 ## Parameters
 
 ## Returns

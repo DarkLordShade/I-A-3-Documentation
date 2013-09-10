@@ -14,7 +14,7 @@ This documentation serves as both design documentation and developer-focused doc
 
 ## Download
 
-To download, click [here](http://www.example.com).
+To download, click [here](https://github.com/jpwilliams/I-A-3/releases/download/v0.1-pre-alpha/CO40.AW.Invade.Annex.3.Altis.pbo).
 
 ## Disclaimer
 
