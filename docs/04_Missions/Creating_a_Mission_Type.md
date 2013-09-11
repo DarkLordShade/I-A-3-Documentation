@@ -13,5 +13,6 @@ For these examples, we will call our new mission type `example`, with the full n
 5. In `init\server.sqf`, scroll to the bottom and find the `MISSIONS` section. Find the line that, by default, reads `} foreach ["tactical", "ghost", "priority"];` and add your new mission code. In this example, we'd change this line to `} foreach ["tactical", "ghost", "priority", "example"];`.
 6. Create an `example` folder in the `missions\` directory and start adding your new missions! (e.g. `missions\example\stabTheMan`, `missions\example\kissTheWonka`)
 7. In each mission folder, be sure to create a `mission.fsm` that ends by setting the global variable `result` to either `true` (success) or `false` (failure).
+8. Add parameters (expand on this!)
 
 That's all! So, it does take a bit of set-up here and there as you need to figure out what your markers will look like, how your notifications are presented and a good few other bits and bobs, but if you have a solid plan it's a pretty easy process.
