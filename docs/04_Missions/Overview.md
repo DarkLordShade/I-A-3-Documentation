@@ -19,7 +19,17 @@ The default missions in I&A 3 will have some basic rules defining each one.
 * **Priority Target** - A time-critical mission that puts all players under threat. Safety is the reward for the completion of these missions.
 * **Sub-Objective** - A destruction-based / capture mission that is inside a Main AO but not explicitly marked. Main AOs can not be completed without first completing these missions.
 
+All missions use the Univeral Mission Machine to create and manage their various states, successes, failures and rewards. Let's go through a basic mission being created from the start and see everything that happens.
 
+1. The Universal Mission Machine is called with the following parameters: `type`, `mission list` and `looping`.
+```sqf
+["tactical", [], true] execFSM "machines\mission.fsm";
+```
+2. The Universal Mission Machine finds missions it can run based on the `mission list` we gave it. If no missions were supplied, it will get all missions available to it of that type.
+3. If set to loop, the Universal Mission Machine will wait before spawning each mission and will continue to spawn missions (at random intervals) until manually stopped. Otherwise, the mission will be instantly triggered.
+4. A mission is picked at random and a unique code is genereated using the `type`, `name` and and random number (e.g. `tactical_getDocuments_4`).
+5. The relevant markers will be created, tasks will be set and notifications of the mission starting will be sent to players.
+6. The Universal Mission Machine will now wait for mission failure / success and hand out rewards to players accordingly. If it was set to loop, it'll now wait a random interval before repeating the process from step 4. If not set to loop, the Universal Mission Machine will now destroy itself.
 
 ## Customisation
 
