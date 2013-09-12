@@ -169,11 +169,13 @@ if ($homepage && $homepage_url !== '/') {
 			<div class="container">
 				<div class="row">
 					<div class="text-center span12">
-						<?php if ($options['version']) { ?>
-							<a href="https://github.com/jpwilliams/I-A-3/releases/download/<?php echo $options['version'] ?>/CO40.AW.Invade.Annex.3.Altis.pbo" class="btn btn-primary btn-hero">
-								Download Mission
-							</a>
-						<?php } ?>
+						<?php /*
+							<?php if ($options['version']) { ?>
+								<a href="https://github.com/jpwilliams/I-A-3/releases/download/<?php echo $options['version'] ?>/CO40.AW.Invade.Annex.3.Altis.pbo" class="btn btn-primary btn-hero">
+									Download Mission
+								</a>
+							<?php } ?>
+						*/ ?>
 						<a href="<?php echo $docs_url;?>" class="btn btn-secondary btn-hero">
 							View Documentation
 						</a>

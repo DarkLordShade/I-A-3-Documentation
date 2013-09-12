@@ -1,4 +1,6 @@
 <p class="lead">
+	<span style="color: #ce2123;">This project is currently in a pre-alpha state and lacks both content and functionality; it is not intended to be played publically or away from private test servers until its full release.</span><br/>
+	<br/>
 	<strong>Invade & Annex 3</strong> is the final iteration of the popular PvE mission for Arma 3. A fully-dynamic platform designed to allow developers to add countless pieces of content, I&A 3 is made to be the best.
 </p>
 
